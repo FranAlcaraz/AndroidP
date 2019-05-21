@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PrimerParcial</string>
+    <string name="image">IMAGE</string>
+    <string name="texto_ejemplo">Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Nunc turpis tortor, rhoncus eget est nec, ultrices fermentum mi.
+        Ut in placerat leo. Ut in porta nisl, ut vehicula quam. Donec ultricies nisl dolor.
+        Sed sed ullamcorper lectus. Fusce a sapien quis eros dignissim posuere.
+        Vivamus consectetur arcu vitae lorem feugiat consequat.
+        eget quis diam. Donec elementum blandit nunc, ac consectetur lacus fermentum a.</string>
+</resources>

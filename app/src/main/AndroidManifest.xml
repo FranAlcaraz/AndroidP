@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.davinci.nombre">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    <!-- TODA nueva Activity se van declarando una abajo de la otra dentro de
+    <application> como vemos acá. Solamente escribimos "<activity" y deberia
+    auto completar, de no hacerlo, escribir completo con el detalle del punto
+    previo al nombre del Activity para que encuentre su ubicacion si no esta
+    dentro de una carpeta -->
+    <activity android:name=".DetailActivity"/>
+    </application>
+
+</manifest>
